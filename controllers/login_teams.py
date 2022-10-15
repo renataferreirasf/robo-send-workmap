@@ -15,7 +15,7 @@ class Login:
         chrome_options.add_argument('--lang=pt-BR')
         chrome_options.add_argument('disable-infobars')
         chrome_options.add_argument('--log-level=3')
-        self.driver = webdriver.Chrome('/home/renatxinha/Robo-send-Workmap/chromedriver', options=chrome_options)
+        self.driver = webdriver.Chrome('caminho', options=chrome_options)
         ('Entrando no site...')
         self.driver.get('link da pasta no teams')
         time.sleep(6)
